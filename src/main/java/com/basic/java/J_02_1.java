@@ -123,7 +123,7 @@ public class J_02_1 {
         // Tu código:
         System.out.println("""
                 \nExample 010
-                x%y""");
+                x % y""");
         System.out.println("Ingrese x");
         double x010 = scanner.nextDouble();
         System.out.println("Ingrese y");
@@ -133,7 +133,17 @@ public class J_02_1 {
         // Devuelve "true" si "num" es par
         // De lo contrario, devuelve "false"
         // Tu código:
-
+        System.out.println("""
+                \nExample 011
+                x == par   => true
+                x == impar => impar""");
+        System.out.println("Ingrese x");
+        double x011 = scanner.nextDouble();
+        if (x011 % 2 == 0) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
 
         // Devuelve "true" si "num" es impar
         // De lo contrario, devuelve "false"
