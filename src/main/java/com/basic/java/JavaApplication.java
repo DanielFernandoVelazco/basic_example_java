@@ -8,24 +8,21 @@ import java.util.Scanner;
 @SpringBootApplication
 public class JavaApplication {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-		Scanner scanner = new Scanner(System.in);
+        // Devuelve "true" si "num" es impar
+        // De lo contrario, devuelve "false"
+        // Tu código:
+        System.out.println("""
+                \nExample 012
+                x == impar => true
+                x == par   => impar""");
+        System.out.println("Ingrese x");
+        double x012 = scanner.nextDouble();
+        boolean respuesta = (x012 % 2 == 0) ? false : true;
+        System.out.println(respuesta);
 
-		// Devuelve "true" si "num" es par
-		// De lo contrario, devuelve "false"
-		// Tu código:
-		System.out.println("""
-                \nExample 011
-                x == par   => true
-                x == impar => impar""");
-		System.out.println("Ingrese x");
-		double x011 = scanner.nextDouble();
-		if (x011 % 2 == 0) {
-			System.out.println(true);
-		} else {
-			System.out.println(false);
-		}
-	}
 
+    }
 }

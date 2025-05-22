@@ -148,7 +148,14 @@ public class J_02_1 {
         // Devuelve "true" si "num" es impar
         // De lo contrario, devuelve "false"
         // Tu código:
-
+        System.out.println("""
+                \nExample 012
+                x == impar => true
+                x == par   => impar""");
+        System.out.println("Ingrese x");
+        double x012 = scanner.nextDouble();
+        boolean respuesta = (x012 % 2 == 0) ? false : true;
+        System.out.println(respuesta);
 
         // Devuelve el valor de "num" elevado al cuadrado
         // ojo: No es raiz cuadrada!
