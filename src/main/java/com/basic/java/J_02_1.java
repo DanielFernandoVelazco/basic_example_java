@@ -82,9 +82,17 @@ public class J_02_1 {
         // Tu código:
         System.out.println("""
                 \nExample 007
-                if long Var_1 == Var_2 => true
-                if long Var_1 =! Var_2 => false""");
-
+                if long str Var_1 == Var_2 => true
+                if long str Var_1 =! Var_2 => false""");
+        System.out.println("Into var_1 (str)");
+        String x007 = scanner.nextLine();
+        System.out.println("Into var_2 (str)");
+        String y007 = scanner.nextLine();
+        if (x007.length() == y007.length()) {
+            System.out.println("Res = " + true);
+        } else {
+            System.out.println("Res = " + false);
+        }
 
         // Devuelve "true" si el argumento de la función "num" es menor que noventa
         // De lo contrario, devuelve "false"
