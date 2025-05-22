@@ -121,7 +121,14 @@ public class J_02_1 {
 
         // Obten el resto de la división de "x" entre "y"
         // Tu código:
-
+        System.out.println("""
+                \nExample 010
+                x%y""");
+        System.out.println("Ingrese x");
+        double x010 = scanner.nextDouble();
+        System.out.println("Ingrese y");
+        double y010 = scanner.nextDouble();
+        System.out.println("El resto de la divison es =" + x010 % y010);
 
         // Devuelve "true" si "num" es par
         // De lo contrario, devuelve "false"
