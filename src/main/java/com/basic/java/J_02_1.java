@@ -11,6 +11,7 @@ public class J_02_1 {
         // Tu código:
         System.out.println("str");
 
+
         System.out.println("""
                 \nExample 002
                 Res = Var_1 + Var_2
@@ -44,8 +45,20 @@ public class J_02_1 {
         System.out.println("Res = " + res003);
 
 
+        System.out.println("""
+                \nExample 004
+                Res = Var_1 * Var_2
+                """);
         // Multiplica "x" por "y" y devuelve el valor
         // Tu código:
+        System.out.println("Inside Var_1");
+        double x004 = scanner.nextDouble();
+
+        System.out.println("Inside var_2");
+        double y004 = scanner.nextDouble();
+
+        double res004 = x004 * y004;
+        System.out.println("Res = " + res004);
 
 
         // Divide "x" entre "y" y devuelve el valor
