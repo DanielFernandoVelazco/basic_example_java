@@ -6,14 +6,26 @@ public class J_02_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Example 001");
         // "Return" la string provista: str
         // Tu código:
         System.out.println("str");
 
-
+        System.out.println("""
+                Example 002
+                Res = Var_1 + Var_2
+                """);
         // "x" e "y" son números
         // Suma "x" e "y" juntos y devuelve el valor
         // Tu código:
+        System.out.println("Inside Var 1");
+        double x002 = scanner.nextDouble();
+
+        System.out.println("Inside var 2");
+        double y002 = scanner.nextDouble();
+
+        double res002 = x002 + y002;
+        System.out.println("Res = " + res002);
 
 
         // Resta "y" de "x" y devuelve el valor
