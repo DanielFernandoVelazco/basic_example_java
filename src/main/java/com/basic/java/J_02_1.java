@@ -16,8 +16,7 @@ public class J_02_1 {
         // Tu código:
         System.out.println("""
                 \nExample 002
-                Res = Var_1 + Var_2
-                """);
+                Res = Var_1 + Var_2""");
         System.out.println("Inside Var 1");
         double x002 = scanner.nextDouble();
         System.out.println("Inside var 2");
@@ -29,8 +28,7 @@ public class J_02_1 {
         // Tu código:
         System.out.println("""
                 \nExample 003
-                Res = Var_1 - Var_2
-                """);
+                Res = Var_1 - Var_2""");
         System.out.println("Inside Var 1");
         double x003 = scanner.nextDouble();
         System.out.println("Inside var 2");
@@ -42,8 +40,7 @@ public class J_02_1 {
         // Tu código:
         System.out.println("""
                 \nExample 004
-                Res = Var_1 * Var_2
-                """);
+                Res = Var_1 * Var_2""");
         System.out.println("Inside Var_1");
         double x004 = scanner.nextDouble();
         System.out.println("Inside var_2");
@@ -55,8 +52,7 @@ public class J_02_1 {
         // Tu código:
         System.out.println("""
                 \nExample 005
-                Res = Var_1 / Var_2
-                """);
+                Res = Var_1 / Var_2""");
         System.out.println("Inside Var_1");
         double x005 = scanner.nextDouble();
         System.out.println("Inside var_2");
@@ -67,11 +63,27 @@ public class J_02_1 {
         // Devuelve "true" si "x" e "y" son iguales
         // De lo contrario, devuelve "false"
         // Tu código:
-
+        System.out.println("""
+                \nExample 006
+                Var_1 == Var_2 => true
+                Var_1 =! Var_2 => false""");
+        System.out.println("Inside Var_1");
+        double x006 = scanner.nextDouble();
+        System.out.println("Inside var_2");
+        double y006 = scanner.nextDouble();
+        if (x006 == y006) {
+            System.out.println("Res = " + true);
+        } else {
+            System.out.println("Res = " + false);
+        }
 
         // Devuelve "true" si las dos strings tienen la misma longitud
         // De lo contrario, devuelve "false"
         // Tu código:
+        System.out.println("""
+                \nExample 007
+                if long Var_1 == Var_2 => true
+                if long Var_1 =! Var_2 => false""");
 
 
         // Devuelve "true" si el argumento de la función "num" es menor que noventa
