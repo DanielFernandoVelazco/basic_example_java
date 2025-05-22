@@ -189,6 +189,12 @@ public class J_02_1 {
 
         // Redondea "num" al entero más próximo y devuélvelo
         // Tu código:
+        System.out.println("""
+                \nExample 016
+                x = |x|""");
+        System.out.println("Ingrese x");
+        double x016 = scanner.nextDouble();
+        System.out.println("Respuesta = " + Math.round(x016));
 
 
         // Redondea "num" hacia arriba (al próximo entero) y devuélvelo

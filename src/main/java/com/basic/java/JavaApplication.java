@@ -11,16 +11,14 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Devuelve el valor de "num" elevado al exponente dado en "exponent"
+        // Redondea "num" al entero más próximo y devuélvelo
         // Tu código:
         System.out.println("""
-                \nExample 015
-                res = x ^ y""");
+                \nExample 016
+                x = |x|""");
         System.out.println("Ingrese x");
-        double x015 = scanner.nextDouble();
-        System.out.println("Ingrese y");
-        double y015 = scanner.nextDouble();
-        System.out.println("Respuesta = " + Math.pow(x015, y015));
+        double x016 = scanner.nextDouble();
+        System.out.println("Respuesta = " + Math.round(x016));
 
 
     }
