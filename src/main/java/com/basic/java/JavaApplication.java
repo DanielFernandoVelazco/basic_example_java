@@ -11,12 +11,16 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Generar un número al azar entre 0 y 1 y devolverlo
-        //Pista: investigá qué hace el método Math.random()
         System.out.println("""
-                \nExample 017
-                x = random()""");
-        System.out.println("Respuesta = " + Math.random());
+                \nExample 019
+                x > 0 => es positivo
+                x < 0 => es negativo
+                x = 0 => es falso""");
+        System.out.println("x = ");
+        double x019 = scanner.nextDouble();
+        if (x019 > 0) System.out.println("Es Positivo");
+        if (x019 < 0) System.out.println("Es Negativo");
+        if (x019 == 0) System.out.println(false);
 
 
     }

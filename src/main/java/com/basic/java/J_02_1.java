@@ -208,7 +208,7 @@ public class J_02_1 {
         //Generar un número al azar entre 0 y 1 y devolverlo
         //Pista: investigá qué hace el método Math.random()
         System.out.println("""
-                \nExample 017
+                \nExample 018
                 x = random()""");
         System.out.println("Respuesta = " + Math.random());
 
@@ -216,7 +216,16 @@ public class J_02_1 {
         //Si el número es positivo, devolver ---> "Es positivo"
         //Si el número es negativo, devolver ---> "Es negativo"
         //Si el número es 0, devuelve false
-
+        System.out.println("""
+                \nExample 019
+                x > 0 => es positivo
+                x < 0 => es negativo
+                x = 0 => es falso""");
+        System.out.println("x = ");
+        double x019 = scanner.nextDouble();
+        if (x019 > 0) System.out.println("Es Positivo");
+        if (x019 < 0) System.out.println("Es Negativo");
+        if (x019 == 0) System.out.println(false);
 
         // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
         // Ejemplo: "hello world" pasaría a ser "hello world!"
