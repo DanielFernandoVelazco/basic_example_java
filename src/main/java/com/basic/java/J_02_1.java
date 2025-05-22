@@ -207,7 +207,10 @@ public class J_02_1 {
 
         //Generar un número al azar entre 0 y 1 y devolverlo
         //Pista: investigá qué hace el método Math.random()
-
+        System.out.println("""
+                \nExample 017
+                x = random()""");
+        System.out.println("Respuesta = " + Math.random());
 
         //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
         //Si el número es positivo, devolver ---> "Es positivo"
