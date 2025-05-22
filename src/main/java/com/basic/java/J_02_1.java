@@ -160,7 +160,12 @@ public class J_02_1 {
         // Devuelve el valor de "num" elevado al cuadrado
         // ojo: No es raiz cuadrada!
         // Tu código:
-
+        System.out.println("""
+                \nExample 013
+                x = x * x""");
+        System.out.println("Ingrese x");
+        double x013 = scanner.nextDouble();
+        System.out.println("respuesta = " + Math.pow(x013,2));
 
         // Devuelve el valor de "num" elevado al cubo
         // Tu código:
