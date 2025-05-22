@@ -1,0 +1,135 @@
+package com.basic.java;
+
+import java.util.Scanner;
+
+public class J_02_1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // "Return" la string provista: str
+        // Tu código:
+        System.out.println("str");
+
+
+        // "x" e "y" son números
+        // Suma "x" e "y" juntos y devuelve el valor
+        // Tu código:
+
+
+        // Resta "y" de "x" y devuelve el valor
+        // Tu código:
+
+
+        // Multiplica "x" por "y" y devuelve el valor
+        // Tu código:
+
+
+        // Divide "x" entre "y" y devuelve el valor
+        // Tu código:
+
+
+        // Devuelve "true" si "x" e "y" son iguales
+        // De lo contrario, devuelve "false"
+        // Tu código:
+
+
+        // Devuelve "true" si las dos strings tienen la misma longitud
+        // De lo contrario, devuelve "false"
+        // Tu código:
+
+
+        // Devuelve "true" si el argumento de la función "num" es menor que noventa
+        // De lo contrario, devuelve "false"
+        // Tu código:
+
+
+        // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
+        // De lo contrario, devuelve "false"
+        // Tu código:
+
+
+        // Obten el resto de la división de "x" entre "y"
+        // Tu código:
+
+
+        // Devuelve "true" si "num" es par
+        // De lo contrario, devuelve "false"
+        // Tu código:
+
+
+        // Devuelve "true" si "num" es impar
+        // De lo contrario, devuelve "false"
+        // Tu código:
+
+
+        // Devuelve el valor de "num" elevado al cuadrado
+        // ojo: No es raiz cuadrada!
+        // Tu código:
+
+
+        // Devuelve el valor de "num" elevado al cubo
+        // Tu código:
+
+
+        // Devuelve el valor de "num" elevado al exponente dado en "exponent"
+        // Tu código:
+
+
+        // Redondea "num" al entero más próximo y devuélvelo
+        // Tu código:
+
+
+        // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
+        // Tu código:
+
+
+        //Generar un número al azar entre 0 y 1 y devolverlo
+        //Pista: investigá qué hace el método Math.random()
+
+
+        //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
+        //Si el número es positivo, devolver ---> "Es positivo"
+        //Si el número es negativo, devolver ---> "Es negativo"
+        //Si el número es 0, devuelve false
+
+
+        // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
+        // Ejemplo: "hello world" pasaría a ser "hello world!"
+        // Tu código:
+
+        // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
+        // Ejemplo: "Soy", "Henry" -> "Soy Henry"
+        // Tu código:
+
+
+        // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
+        // "Martin" -> "Hola Martin!"
+        // Tu código:
+
+
+        // Retornar el area de un rectángulo teniendo su altura y ancho
+        // Tu código:
+
+
+        //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
+        //Escribe tu código aquí
+
+
+        //Desarrolle una función que calcule el área de un triángulo.
+        //Escribe tu código aquí
+
+
+        //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
+        //como parámetro un número de euros y calcule el cambio en dólares.
+        //Escribe tu código aquí
+
+
+        //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
+        //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle
+        //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
+        // Si no es vocal, tambien debe devolver "Dato incorrecto".
+        //Escribe tu código aquí
+
+
+    }
+}
