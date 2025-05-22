@@ -196,10 +196,14 @@ public class J_02_1 {
         double x016 = scanner.nextDouble();
         System.out.println("Respuesta = " + Math.round(x016));
 
-
         // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
         // Tu código:
-
+        System.out.println("""
+                \nExample 017
+                x = |x| => x""");
+        System.out.println("Ingrese x ");
+        double x017 = scanner.nextDouble();
+        System.out.println("Respuesta = " + Math.ceil(x017));
 
         //Generar un número al azar entre 0 y 1 y devolverlo
         //Pista: investigá qué hace el método Math.random()

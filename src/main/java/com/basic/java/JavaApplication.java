@@ -11,14 +11,15 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Redondea "num" al entero más próximo y devuélvelo
+        // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
         // Tu código:
         System.out.println("""
-                \nExample 016
-                x = |x|""");
-        System.out.println("Ingrese x");
-        double x016 = scanner.nextDouble();
-        System.out.println("Respuesta = " + Math.round(x016));
+                \nExample 017
+                x = |x| => x""");
+        System.out.println("Ingrese x ");
+        double x017 = scanner.nextDouble();
+        System.out.println("Respuesta = " + Math.ceil(x017));
+
 
 
     }
