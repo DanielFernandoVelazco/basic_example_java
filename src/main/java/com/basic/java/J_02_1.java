@@ -103,14 +103,21 @@ public class J_02_1 {
                 Var => 90 => false""");
         System.out.println("Ingrese un numero");
         double var008 = scanner.nextDouble();
-        boolean respuesta = (var008 < 90) ? true : false;
-        System.out.println("Respuesta = " + respuesta);
+        boolean respuesta008 = (var008 < 90) ? true : false;
+        System.out.println("Respuesta = " + respuesta008);
 
 
         // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
         // De lo contrario, devuelve "false"
         // Tu código:
-
+        System.out.println("""
+                \nExample 009
+                Var <  50 => true
+                Var => 50 => false""");
+        System.out.println("Ingrese un numero");
+        double x009 = scanner.nextDouble();
+        boolean respuesta009 = (x009 < 50) ? true : false;
+        System.out.println("Respuesta = " + respuesta009);
 
         // Obten el resto de la división de "x" entre "y"
         // Tu código:
