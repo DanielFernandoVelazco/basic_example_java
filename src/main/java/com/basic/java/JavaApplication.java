@@ -11,15 +11,14 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Devuelve el valor de "num" elevado al cuadrado
-        // ojo: No es raiz cuadrada!
+        // Devuelve el valor de "num" elevado al cubo
         // Tu código:
         System.out.println("""
-                \nExample 013
-                x = x * x""");
+                \nExample 014
+                x = x ^ 3""");
         System.out.println("Ingrese x");
-        double x013 = scanner.nextDouble();
-        System.out.println("respuesta = " + Math.pow(x013, 2));
+        double x014 = scanner.nextDouble();
+        System.out.println("Respuesta = " + Math.pow(x014, 3));
 
 
     }
