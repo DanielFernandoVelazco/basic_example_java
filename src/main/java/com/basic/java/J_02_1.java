@@ -97,6 +97,14 @@ public class J_02_1 {
         // Devuelve "true" si el argumento de la función "num" es menor que noventa
         // De lo contrario, devuelve "false"
         // Tu código:
+        System.out.println("""
+                \nExample 008
+                Var <  90 => true
+                Var => 90 => false""");
+        System.out.println("Ingrese un numero");
+        double var008 = scanner.nextDouble();
+        boolean respuesta = (var008 < 90) ? true : false;
+        System.out.println("Respuesta = " + respuesta);
 
 
         // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
