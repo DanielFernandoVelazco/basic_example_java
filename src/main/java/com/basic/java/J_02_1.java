@@ -12,7 +12,7 @@ public class J_02_1 {
         System.out.println("str");
 
         System.out.println("""
-                Example 002
+                \nExample 002
                 Res = Var_1 + Var_2
                 """);
         // "x" e "y" son números
@@ -28,8 +28,20 @@ public class J_02_1 {
         System.out.println("Res = " + res002);
 
 
+        System.out.println("""
+                \nExample 003
+                Res = Var_1 - Var_2
+                """);
         // Resta "y" de "x" y devuelve el valor
         // Tu código:
+        System.out.println("Inside Var 1");
+        double x003 = scanner.nextDouble();
+
+        System.out.println("Inside var 2");
+        double y003 = scanner.nextDouble();
+
+        double res003 = x003 - y003;
+        System.out.println("Res = " + res003);
 
 
         // Multiplica "x" por "y" y devuelve el valor
