@@ -11,16 +11,15 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
+        // Ejemplo: "hello world" pasaría a ser "hello world!"
+        // Tu código:
         System.out.println("""
-                \nExample 019
-                x > 0 => es positivo
-                x < 0 => es negativo
-                x = 0 => es falso""");
-        System.out.println("x = ");
-        double x019 = scanner.nextDouble();
-        if (x019 > 0) System.out.println("Es Positivo");
-        if (x019 < 0) System.out.println("Es Negativo");
-        if (x019 == 0) System.out.println(false);
+                \nExample 020
+                x = agregar simbolo de exclamacion !""");
+        System.out.println("Inserte la cadena de texto");
+        String x020 = scanner.nextLine();
+        System.out.println("Respuesta = " + x020 + "!");
 
 
     }
