@@ -176,10 +176,16 @@ public class J_02_1 {
         double x014 = scanner.nextDouble();
         System.out.println("Respuesta = " + Math.pow(x014, 3));
 
-
         // Devuelve el valor de "num" elevado al exponente dado en "exponent"
         // Tu código:
-
+        System.out.println("""
+                \nExample 015
+                res = x ^ y""");
+        System.out.println("Ingrese x");
+        double x015 = scanner.nextDouble();
+        System.out.println("Ingrese y");
+        double y015 = scanner.nextDouble();
+        System.out.println("Respuesta = " + Math.pow(x015, y015));
 
         // Redondea "num" al entero más próximo y devuélvelo
         // Tu código:
