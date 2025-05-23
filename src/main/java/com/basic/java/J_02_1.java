@@ -249,11 +249,15 @@ public class J_02_1 {
         String y021 = scanner.nextLine();
         System.out.println("Respuesta = " + x021 + " " + y021);
 
-
         // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
         // "Martin" -> "Hola Martin!"
         // Tu código:
-
+        System.out.println("""
+                \nExample 022
+                Unir Hola con nombre""");
+        System.out.println("Ingrese el nombre");
+        String x022 = scanner.nextLine();
+        System.out.println("Hola " + x022 + "!");
 
         // Retornar el area de un rectángulo teniendo su altura y ancho
         // Tu código:

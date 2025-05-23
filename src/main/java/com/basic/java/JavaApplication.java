@@ -11,17 +11,15 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
-        // Ejemplo: "Soy", "Henry" -> "Soy Henry"
+        // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
+        // "Martin" -> "Hola Martin!"
         // Tu código:
         System.out.println("""
-                \nExample 021
-                Unir Nombre Apellido""");
-        System.out.println("Inserte Nombre");
-        String x021 = scanner.nextLine();
-        System.out.println("Inserte Apellido");
-        String y021 = scanner.nextLine();
-        System.out.println("Respuesta = " + x021 + " " + y021);
+                \nExample 022
+                Unir Hola con nombre""");
+        System.out.println("Ingrese el nombre");
+        String x022 = scanner.nextLine();
+        System.out.println("Hola " + x022 + "!");
 
 
     }
