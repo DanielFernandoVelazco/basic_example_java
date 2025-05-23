@@ -11,16 +11,15 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Desarrolle una función que calcule el área de un triángulo.
+        //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
+        //como parámetro un número de euros y calcule el cambio en dólares.
         //Escribe tu código aquí
         System.out.println("""
-                \nExample 025
-                Area Triagulo = (b*h)/2""");
-        System.out.println("Ingrese b");
-        double x025 = scanner.nextDouble();
-        System.out.println("Ingrese h");
-        double y025 = scanner.nextDouble();
-        System.out.println("Area = " + (x025 * y025) / 2);
+                \nExample 026
+                Euros = 1.20 * Dolares""");
+        System.out.println("Ingrese Cantidad Dolares");
+        double x026 = scanner.nextDouble();
+        System.out.println("Respuesta Euros = " + 1.20 * x026);
 
     }
 }
