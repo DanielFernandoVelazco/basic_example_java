@@ -261,7 +261,14 @@ public class J_02_1 {
 
         // Retornar el area de un rectángulo teniendo su altura y ancho
         // Tu código:
-
+        System.out.println("""
+                \nExample 023
+                Area = b * h""");
+        System.out.println("Ingrese b");
+        double x023 = scanner.nextDouble();
+        System.out.println("Ingrese h");
+        double y023 = scanner.nextDouble();
+        System.out.println("Area = " + x023 * y023);
 
         //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
         //Escribe tu código aquí

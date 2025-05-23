@@ -11,15 +11,16 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
-        // "Martin" -> "Hola Martin!"
+        // Retornar el area de un rectángulo teniendo su altura y ancho
         // Tu código:
         System.out.println("""
-                \nExample 022
-                Unir Hola con nombre""");
-        System.out.println("Ingrese el nombre");
-        String x022 = scanner.nextLine();
-        System.out.println("Hola " + x022 + "!");
+                \nExample 023
+                Area = b * h""");
+        System.out.println("Ingrese b");
+        double x023 = scanner.nextDouble();
+        System.out.println("Ingrese h");
+        double y023 = scanner.nextDouble();
+        System.out.println("Area = " + x023 * y023);
 
 
     }
