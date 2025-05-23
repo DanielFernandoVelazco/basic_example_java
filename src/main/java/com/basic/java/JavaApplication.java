@@ -11,15 +11,24 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
-        //como parámetro un número de euros y calcule el cambio en dólares.
+        //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
+        //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle
+        //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
+        // Si no es vocal, tambien debe devolver "Dato incorrecto".
         //Escribe tu código aquí
         System.out.println("""
-                \nExample 026
-                Euros = 1.20 * Dolares""");
-        System.out.println("Ingrese Cantidad Dolares");
-        double x026 = scanner.nextDouble();
-        System.out.println("Respuesta Euros = " + 1.20 * x026);
+                \nExample 027
+                Validacion Vocales""");
+        System.out.println("Ingrese un string");
+        String x027 = scanner.nextLine();
+        if (x027.length() != 1) System.out.println("Dato Incorrecto");
+        x027 = x027.toLowerCase();
+        if (x027.equals("a") || x027.equals("e") || x027.equals("i")
+                || x027.equals("o") || x027.equals("u")) {
+            System.out.println("Es vocal");
+        } else {
+            System.out.println("Dato Incorrecto");
+        }
 
     }
 }
