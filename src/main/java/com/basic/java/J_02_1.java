@@ -272,7 +272,12 @@ public class J_02_1 {
 
         //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
         //Escribe tu código aquí
-
+        System.out.println("""
+                \nExample 024
+                Perimetro = l + l + l + l""");
+        System.out.println("Ingrese el lado (l)");
+        double x024 = scanner.nextDouble();
+        System.out.println("Perimetro = " + 4 * x024);
 
         //Desarrolle una función que calcule el área de un triángulo.
         //Escribe tu código aquí

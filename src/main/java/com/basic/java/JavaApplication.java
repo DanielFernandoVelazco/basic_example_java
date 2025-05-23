@@ -11,17 +11,14 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Retornar el area de un rectángulo teniendo su altura y ancho
-        // Tu código:
+        //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
+        //Escribe tu código aquí
         System.out.println("""
-                \nExample 023
-                Area = b * h""");
-        System.out.println("Ingrese b");
-        double x023 = scanner.nextDouble();
-        System.out.println("Ingrese h");
-        double y023 = scanner.nextDouble();
-        System.out.println("Area = " + x023 * y023);
-
+                \nExample 024
+                Perimetro = l + l + l + l""");
+        System.out.println("Ingrese el lado (l)");
+        double x024 = scanner.nextDouble();
+        System.out.println("Perimetro = " + 4 * x024);
 
     }
 }
