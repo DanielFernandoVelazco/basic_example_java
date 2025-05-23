@@ -281,7 +281,14 @@ public class J_02_1 {
 
         //Desarrolle una función que calcule el área de un triángulo.
         //Escribe tu código aquí
-
+        System.out.println("""
+                \nExample 025
+                Area Triagulo = (b*h)/2""");
+        System.out.println("Ingrese b");
+        double x025 = scanner.nextDouble();
+        System.out.println("Ingrese h");
+        double y025 = scanner.nextDouble();
+        System.out.println("Area = " + (x025 * y025) / 2);
 
         //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
         //como parámetro un número de euros y calcule el cambio en dólares.

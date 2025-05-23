@@ -11,14 +11,16 @@ public class JavaApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
+        //Desarrolle una función que calcule el área de un triángulo.
         //Escribe tu código aquí
         System.out.println("""
-                \nExample 024
-                Perimetro = l + l + l + l""");
-        System.out.println("Ingrese el lado (l)");
-        double x024 = scanner.nextDouble();
-        System.out.println("Perimetro = " + 4 * x024);
+                \nExample 025
+                Area Triagulo = (b*h)/2""");
+        System.out.println("Ingrese b");
+        double x025 = scanner.nextDouble();
+        System.out.println("Ingrese h");
+        double y025 = scanner.nextDouble();
+        System.out.println("Area = " + (x025 * y025) / 2);
 
     }
 }
